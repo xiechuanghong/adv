@@ -1,0 +1,54 @@
+body,html {
+    font-family: PingFang SC;
+    font-size: 0.15rem;
+    position: relative;
+    height: 100%;
+    background: #fff;
+}
+
+div {
+    font-size: 0.15rem;
+    font-weight: 400;
+}
+
+img {
+    vertical-align: middle;
+    will-change: transform;
+}
+
+.cont input {
+    margin: 0;
+    border: none;
+    height: auto;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    outline:none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+input, textarea {
+    -webkit-user-select: auto!important;
+    -khtml-user-select: auto!important;
+    -moz-user-select: auto!important;
+    -ms-user-select: auto!important;
+    -o-user-select: auto!important;
+    user-select: auto!important;
+}
+
+input:disabled{
+    opacity: 1;
+}
+
+.mint-switch-input:checked + .mint-switch-core {
+    border-color: #4BD962;
+    background-color: #4BD962;
+}
+
+input::-webkit-input-placeholder {
+    color: #C7C7CC;
+    font-size: 13px;
+    /* text-align: right; */
+}
